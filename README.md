@@ -1,4 +1,4 @@
-- Recommendation-based Basin-Hopping (RBH) for thermodynamic global optimization of cation ordering in multi-cation perovskites
+- Recommendation-based Basin-Hopping (RBH) for thermodynamic global optimization of cation ordering in multi-cation perovskites   
 Reference: Y. Zhang, Z. Li, Z.-K. Han, R. Ouyang, Global optimization of cation ordering in perovskites by recommendation-based basin-hopping, under review (2024).
 
 - Modification to the traditional BH:   
