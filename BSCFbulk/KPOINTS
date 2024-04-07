@@ -1,0 +1,5 @@
+Title       ! comment line
+0           ! automatic k-mesh generation scheme
+Gamma       ! Gamma centered Monkhorst-Pack grid
+1 1 1       ! count of k-points in each direction (e.g. Nk_i*l_i~ 40)
+0 0 0       ! no shift of the mesh
