@@ -7,7 +7,7 @@ b) A scheme that combines DFT and on-the-fly MLFF is used to ensure fast and acc
 
 - Three examples of using the RBH for cation ordering optimization are provided in the folders BSCFbulk, BSCFsurface, and CSCFsurface.
 
-- Running the RBH
+- Running the RBH    
 1 Setting your parameters in the program RBH.f90, and compile it: ifort RBH.f90 -o RBH
 2 Places the files INCAR_0, INCAR_1, INCAR_2, INCAR_3, POSCAR, KPOINTS, POTCAR, and the code RBH in the same working directory
 3 Put the command ./RBH in your job submission script and submit your job.   
