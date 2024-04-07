@@ -1,0 +1,53 @@
+PREC= Normal       
+ENCUT=400
+ISPIN=2
+MAGMOM=30*0 48*3 12*4 180*0 30*0        
+
+NELM=40  
+NELMIN=4          
+EDIFF=1E-4
+ISMEAR=0  
+SIGMA=0.05       
+ALGO=Fast       
+LREAL=Auto   
+NCORE=16
+
+# ionic relaxation
+EDIFFG=-0.05
+IBRION=0       
+ISIF=2        
+ISYM=0       
+POTIM= 0.5
+
+
+# on site Coulomb interaction
+LDAU=.TRUE.             
+LDAUTYPE= 2            
+LDAUL= -1 2 2 -1 -1 
+LDAUU= 0 3.3 4.0 0 0 
+LDAUJ= 0 0 0 0 0 
+LMAXMIX=4             
+# output
+LCHARG=.FALSE.  
+LVTOT=.FALSE.  
+LVHAR=.FALSE.  
+LWAVE = .FALSE.  
+
+ML_LMLFF = .TRUE.
+ML_ISTART = 3
+NSW=1
+ML_RCUT1=6.0
+ML_NMDINT=1
+ML_MCONF=100
+ML_MB=2000
+ML_LBASIS_DISCARD = .TRUE.
+ML_CDOUB=4
+
+ML_IWEIGHT=3
+ML_WTOTEN=100
+ML_WTIFOR=4
+ML_WTSIF=1
+ML_SION1=0.3
+ML_SION2=0.3
+ML_MRB1=12
+ML_MRB2=12
